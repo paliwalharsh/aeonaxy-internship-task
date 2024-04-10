@@ -1,0 +1,80 @@
+@import "react-toastify/dist/ReactToastify.css";
+.custom-dropdown {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234a4f6c' viewBox='0 0 20 20'%3E%3Cpath d='M10 12l-6-6 1.5-1.5L10 9l4.5-4.5L16 6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center; /* Adjusted background position */
+    background-size: 20px 20px; 
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none; 
+    background-position-y: 10px;
+}
+
+
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative; 
+}
+
+.custom-checkbox:checked {
+    background-color: #2bcea0;
+    border-color: #2bcea0; 
+}
+
+.custom-checkbox:checked::before {
+    content: "";
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"%3E%3Cpath d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; 
+    height: 12px;
+}
+
+.custom-checkbox2 {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative; 
+}
+
+.custom-checkbox2:checked {
+    background-color: #ffffff;
+    
+}
+
+.custom-checkbox2:checked::before {
+    content: "";
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"%3E%3Cpath d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; 
+    height: 12px;
+}
